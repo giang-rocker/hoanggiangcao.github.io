@@ -45,6 +45,11 @@ ul.posts li {
 
 main-body{
     padding-top: 50px;
+    margin: auto;
+}
+
+introduction-container {
+        margin: auto;
 }
 
 .align-center{
