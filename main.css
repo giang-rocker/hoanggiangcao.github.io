@@ -1,9 +1,9 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -20,8 +20,8 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 p {
     font-size: 1.5em;
@@ -44,15 +44,23 @@ ul.posts li {
 
 
 .main-body{
-    padding-top: 100px;
+    padding-top: 50px;
     margin: auto;
     font-size: 1.5em;
     line-height: 1.4;
 }
 
 .introduction-container {
-    margin: auto;
+    margin-top: 30px;
 }
+.news-container{
+    margin-top: 30px;
+}
+
+.research-container{
+    margin-top: 30px;
+}
+
 
 .introduction-avata {
     margin: auto;
@@ -63,7 +71,9 @@ ul.posts li {
     height: 200px;
     align-content: center;
     text-align: center;
-
+}
+li {
+    padding-left: 30px;
 }
 
 .align-center{
