@@ -42,6 +42,11 @@ ul.posts li {
     list-style: none;
 }
 
+
+main-body{
+    padding-top: 50px;
+}
+
 .align-center{
     text-align: center;
 }
