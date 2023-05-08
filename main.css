@@ -14,7 +14,6 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
 }
 a:hover {
     text-decoration: underline;
@@ -52,6 +51,8 @@ ul.posts li {
 
 .introduction-container {
     margin-top: 30px;
+    border-radius: 5px;
+    background-color:#F2F1EF;
 }
 .news-container{
     margin-top: 30px;
@@ -71,6 +72,8 @@ ul.posts li {
     height: 200px;
     align-content: center;
     text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
 }
 li {
     padding-left: 30px;
