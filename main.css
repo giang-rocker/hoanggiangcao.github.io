@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%;
-    font-size:5px;
+
 }
 nav ul, footer ul {
     padding: 0px;
@@ -22,10 +22,9 @@ h1 {
     margin-bottom: 10px;
 }
 p {
-    line-height: 1.4em;
+    font-size: 0.5vw;
     color: #333;
      text-align: justify;
-    text-justify: inter-word;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -43,7 +42,7 @@ ul.posts li {
 .main-body{
     padding-top: 50px;
     margin: auto;
-    line-height: 1.4;
+    
 }
 
 .introduction-container {
@@ -61,15 +60,16 @@ ul.posts li {
 
 
 .introduction-avata {
-    margin: auto;
     text-align: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+
 }
 
 .avatar{
     height: 150px;
-    align-content: center;
-    text-align: center;
-    vertical-align: middle;
     border-radius: 50%;
 }
 li {
